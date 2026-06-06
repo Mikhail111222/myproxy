@@ -1,1 +1,1486 @@
-refresh 
+[
+  {
+    "tag": "mtproto_1",
+    "type": "mtproto",
+    "server": "Shoting.forwarding-co.site.",
+    "port": 44300,
+    "secret": "eeNEgYdJvXrFGRMCIMJdCQ"
+  },
+  {
+    "tag": "mtproto_2",
+    "type": "mtproto",
+    "server": "general.irancell-ir.cfd",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636F7474692E79656B74616E65742E636F6D"
+  },
+  {
+    "tag": "mtproto_3",
+    "type": "mtproto",
+    "server": "www.merco-karco.website",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636F7474692E79656B74616E65742E636F6D"
+  },
+  {
+    "tag": "mtproto_4",
+    "type": "mtproto",
+    "server": "collider.web-yektanet-com.info",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636F7474692E79656B74616E65742E636F6D"
+  },
+  {
+    "tag": "mtproto_5",
+    "type": "mtproto",
+    "server": "total.beyondeson-co.cfd",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636F7474692E79656B74616E65742E636F6D"
+  },
+  {
+    "tag": "mtproto_6",
+    "type": "mtproto",
+    "server": "weblog.forwarding-co.site",
+    "port": 443,
+    "secret": "eeNEgYdJvXrFGRMCIMJdCQRueWVrdGFuZXQuY29tZmFyYWthdi5jb212YW4ubmFqdmEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "tag": "mtproto_7",
+    "type": "mtproto",
+    "server": "Ashkoda-Best.gabrial-batistuta.shop",
+    "port": 443,
+    "secret": "eeNEgYdJvXrFGRMCIMJdCQRueWVrdGFuZXQuY29tZmFyYWthdi5jb212YW4ubmFqdmEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "tag": "mtproto_8",
+    "type": "mtproto",
+    "server": "87.248.129.225",
+    "port": 4455,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_9",
+    "type": "mtproto",
+    "server": "87.248.129.223",
+    "port": 4455,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_10",
+    "type": "mtproto",
+    "server": "87.248.129.224",
+    "port": 4455,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_11",
+    "type": "mtproto",
+    "server": "87.248.129.210",
+    "port": 4455,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_12",
+    "type": "mtproto",
+    "server": "87.248.129.248",
+    "port": 15,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_13",
+    "type": "mtproto",
+    "server": "87.248.129.247",
+    "port": 4455,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_14",
+    "type": "mtproto",
+    "server": "87.248.129.246",
+    "port": 8443,
+    "secret": "dd79e344818749bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_15",
+    "type": "mtproto",
+    "server": "87.248.129.245",
+    "port": 25565,
+    "secret": "dd79e344818749bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_16",
+    "type": "mtproto",
+    "server": "195.254.165.2",
+    "port": 8443,
+    "secret": "dd79e344818749bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_17",
+    "type": "mtproto",
+    "server": "87.248.129.245",
+    "port": 4455,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_18",
+    "type": "mtproto",
+    "server": "87.248.129.243",
+    "port": 4455,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_19",
+    "type": "mtproto",
+    "server": "87.248.129.244",
+    "port": 4455,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_20",
+    "type": "mtproto",
+    "server": "87.248.129.242",
+    "port": 8443,
+    "secret": "ee1603010200010001fc030386e24c3add646565707365656B2E636F6D"
+  },
+  {
+    "tag": "mtproto_21",
+    "type": "mtproto",
+    "server": "87.248.129.241",
+    "port": 8443,
+    "secret": "ee1603010200010001fc030386e24c3add646565707365656B2E636F6D"
+  },
+  {
+    "tag": "mtproto_22",
+    "type": "mtproto",
+    "server": "195.254.165.203",
+    "port": 2053,
+    "secret": "dd1603010200010001fc030386e24c3add160dd"
+  },
+  {
+    "tag": "mtproto_23",
+    "type": "mtproto",
+    "server": "87.248.129.236",
+    "port": 443,
+    "secret": "FgMBAgABAAH8AwOG4kw63QFgMBAgABAAH8AwOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_24",
+    "type": "mtproto",
+    "server": "195.254.165.21",
+    "port": 2053,
+    "secret": "dd1603010200010001fc030386e24c3add"
+  },
+  {
+    "tag": "mtproto_25",
+    "type": "mtproto",
+    "server": "135.181.233.224",
+    "port": 8443,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_26",
+    "type": "mtproto",
+    "server": "116.202.35.160",
+    "port": 25565,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_27",
+    "type": "mtproto",
+    "server": "95.216.230.229",
+    "port": 8443,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_28",
+    "type": "mtproto",
+    "server": "rah.time-meli.info",
+    "port": 8443,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_29",
+    "type": "mtproto",
+    "server": "172.65.132.110",
+    "port": 25565,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_30",
+    "type": "mtproto",
+    "server": "176.65.136.20",
+    "port": 8443,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_31",
+    "type": "mtproto",
+    "server": "94.130.163.24",
+    "port": 443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_32",
+    "type": "mtproto",
+    "server": "65.108.201.16",
+    "port": 443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_33",
+    "type": "mtproto",
+    "server": "78.47.129.193",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_34",
+    "type": "mtproto",
+    "server": "167.233.73.69",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_35",
+    "type": "mtproto",
+    "server": "94.130.163.60",
+    "port": 443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_36",
+    "type": "mtproto",
+    "server": "178.105.231",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_37",
+    "type": "mtproto",
+    "server": "178.105.226.11",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_38",
+    "type": "mtproto",
+    "server": "178.105.232.49",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_39",
+    "type": "mtproto",
+    "server": "136.243.107.193",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_40",
+    "type": "mtproto",
+    "server": "148.251.55.126",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_41",
+    "type": "mtproto",
+    "server": "188.40.191.139",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_42",
+    "type": "mtproto",
+    "server": "moh.kingproxynewdomailasiatech.ink",
+    "port": 25565,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_43",
+    "type": "mtproto",
+    "server": "195.254.165.19",
+    "port": 8443,
+    "secret": "ee1603010200010001fc030386e24c3add646565707365656B2E636F6D"
+  },
+  {
+    "tag": "mtproto_44",
+    "type": "mtproto",
+    "server": "195.254.165.25",
+    "port": 8443,
+    "secret": "ee1603010200010001fc030386e24c3add646565707365656B2E636F6D"
+  },
+  {
+    "tag": "mtproto_45",
+    "type": "mtproto",
+    "server": "195.254.165.18",
+    "port": 8443,
+    "secret": "ee1603010200010001fc030386e24c3add646565707365656B2E636F6D"
+  },
+  {
+    "tag": "mtproto_46",
+    "type": "mtproto",
+    "server": "195.254.165.23",
+    "port": 8443,
+    "secret": "ee1603010200010001fc030386e24c3add646565707365656B2E636F6D"
+  },
+  {
+    "tag": "mtproto_47",
+    "type": "mtproto",
+    "server": "195.254.165.17",
+    "port": 8443,
+    "secret": "ee1603010200010001fc030386e24c3add646565707365656B2E636F6D"
+  },
+  {
+    "tag": "mtproto_48",
+    "type": "mtproto",
+    "server": "195.254.165.20",
+    "port": 8080,
+    "secret": "dd79e7010200010007f0030386e24c3add"
+  },
+  {
+    "tag": "mtproto_49",
+    "type": "mtproto",
+    "server": "195.254.165.23",
+    "port": 2053,
+    "secret": "dd1603010200010001fc030386e24c3add"
+  },
+  {
+    "tag": "mtproto_50",
+    "type": "mtproto",
+    "server": "194.120.230.106",
+    "port": 433,
+    "secret": "3XnnAQIAAQAH8AMDhuJMOt0"
+  },
+  {
+    "tag": "mtproto_51",
+    "type": "mtproto",
+    "server": "fresh.t-proxy.info.",
+    "port": 25565,
+    "secret": "ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_52",
+    "type": "mtproto",
+    "server": "87.248.129.13",
+    "port": 15,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_53",
+    "type": "mtproto",
+    "server": "185.224.3.209",
+    "port": 80,
+    "secret": "eefc56fb73c972a2309c4787bc1364c2207777772e636c6f7564666c6172652e636f6d"
+  },
+  {
+    "tag": "mtproto_54",
+    "type": "mtproto",
+    "server": "65.109.245.52",
+    "port": 7980,
+    "secret": "ddf0eeb0bd9adc4fd4a93994ee3b2a216b"
+  },
+  {
+    "tag": "mtproto_55",
+    "type": "mtproto",
+    "server": "blue.protocolsix.info",
+    "port": 22,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_56",
+    "type": "mtproto",
+    "server": "big.shahidpaper.site",
+    "port": 25565,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_57",
+    "type": "mtproto",
+    "server": "65.109.247.232",
+    "port": 9965,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_58",
+    "type": "mtproto",
+    "server": "ghtash.co.uk",
+    "port": 9965,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_59",
+    "type": "mtproto",
+    "server": "91.107.254.122",
+    "port": 443,
+    "secret": "ddd451f808fd60ed2c45f11d38fdbc87c5"
+  },
+  {
+    "tag": "mtproto_60",
+    "type": "mtproto",
+    "server": "info.proxytime.info",
+    "port": 25565,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_61",
+    "type": "mtproto",
+    "server": "iran.proxytime.info",
+    "port": 25565,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_62",
+    "type": "mtproto",
+    "server": "protocol.fast-mt.info",
+    "port": 25565,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_63",
+    "type": "mtproto",
+    "server": "play.fast-mt.info",
+    "port": 22,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_64",
+    "type": "mtproto",
+    "server": "fool.feel-fly.info",
+    "port": 25565,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_65",
+    "type": "mtproto",
+    "server": "91.107.160.196",
+    "port": 443,
+    "secret": "3XnnAQIAAQAH8AMDhuJMOt0"
+  },
+  {
+    "tag": "mtproto_66",
+    "type": "mtproto",
+    "server": "62.238.26.157",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_67",
+    "type": "mtproto",
+    "server": "178.104.221.250",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_68",
+    "type": "mtproto",
+    "server": "db.road-digger.info.",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_69",
+    "type": "mtproto",
+    "server": "167.233.18.95",
+    "port": 61016,
+    "secret": "7nnnAQIAAQAH8AMDhuJMOt0="
+  },
+  {
+    "tag": "mtproto_70",
+    "type": "mtproto",
+    "server": "167.233.20.112",
+    "port": 61016,
+    "secret": "7nnnAQIAAQAH8AMDhuJMOt0="
+  },
+  {
+    "tag": "mtproto_71",
+    "type": "mtproto",
+    "server": "167.233.31.83",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_72",
+    "type": "mtproto",
+    "server": "167.233.25.36",
+    "port": 7443,
+    "secret": "ee1603010200010001fc030386e24c3add646e2e79656b74616e65742e636f6d646c2e676f6f676c652e636f6d666172616B61762E636F6D160301020001000100000000000000000000000000000000"
+  },
+  {
+    "tag": "mtproto_73",
+    "type": "mtproto",
+    "server": "web.my-miner.info.",
+    "port": 61016,
+    "secret": "7nnnAQIAAQAH8AMDhuJMOt0="
+  },
+  {
+    "tag": "mtproto_74",
+    "type": "mtproto",
+    "server": "167.233.25.36",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_75",
+    "type": "mtproto",
+    "server": "api.my-miner.info.",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_76",
+    "type": "mtproto",
+    "server": "46.224.238.249",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_77",
+    "type": "mtproto",
+    "server": "android.my-miner.info.",
+    "port": 61016,
+    "secret": "7nnnAQIAAQAH8AMDhuJMOt0="
+  },
+  {
+    "tag": "mtproto_78",
+    "type": "mtproto",
+    "server": "iphone.my-miner.info.",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_79",
+    "type": "mtproto",
+    "server": "95.216.149.83",
+    "port": 155,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_80",
+    "type": "mtproto",
+    "server": "172.65.130.177",
+    "port": 25565,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_81",
+    "type": "mtproto",
+    "server": "135.181.66.94",
+    "port": 25565,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_82",
+    "type": "mtproto",
+    "server": "91.217.166.13",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_83",
+    "type": "mtproto",
+    "server": "91.217.166.12",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_84",
+    "type": "mtproto",
+    "server": "91.217.166.11",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_85",
+    "type": "mtproto",
+    "server": "91.217.166.9",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_86",
+    "type": "mtproto",
+    "server": "91.217.166.7",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_87",
+    "type": "mtproto",
+    "server": "91.217.166.8",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_88",
+    "type": "mtproto",
+    "server": "91.217.166.10",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_89",
+    "type": "mtproto",
+    "server": "91.217.166.15",
+    "port": 40,
+    "secret": "7hYDAQIAAQAB_AMDhuJMOt1jZG4ueWVrdGFuZXQuY29tMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA="
+  },
+  {
+    "tag": "mtproto_90",
+    "type": "mtproto",
+    "server": "91.217.166.14",
+    "port": 40,
+    "secret": "7hYDAQIAAQAB_AMDhuJMOt1jZG4ueWVrdGFuZXQuY29tMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA="
+  },
+  {
+    "tag": "mtproto_91",
+    "type": "mtproto",
+    "server": "91.217.166.13",
+    "port": 40,
+    "secret": "7hYDAQIAAQAB_AMDhuJMOt1jZG4ueWVrdGFuZXQuY29tMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA="
+  },
+  {
+    "tag": "mtproto_92",
+    "type": "mtproto",
+    "server": "91.217.166.12",
+    "port": 40,
+    "secret": "7hYDAQIAAQAB_AMDhuJMOt1jZG4ueWVrdGFuZXQuY29tMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA="
+  },
+  {
+    "tag": "mtproto_93",
+    "type": "mtproto",
+    "server": "91.217.166.11",
+    "port": 40,
+    "secret": "7hYDAQIAAQAB_AMDhuJMOt1jZG4ueWVrdGFuZXQuY29tMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA="
+  },
+  {
+    "tag": "mtproto_94",
+    "type": "mtproto",
+    "server": "91.217.166.9",
+    "port": 40,
+    "secret": "7hYDAQIAAQAB_AMDhuJMOt1jZG4ueWVrdGFuZXQuY29tMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA="
+  },
+  {
+    "tag": "mtproto_95",
+    "type": "mtproto",
+    "server": "proxy.speedbreaker.info",
+    "port": 25565,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_96",
+    "type": "mtproto",
+    "server": "norm.quickdl.info",
+    "port": 25565,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_97",
+    "type": "mtproto",
+    "server": "iran.protocolsix.info.",
+    "port": 25565,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_98",
+    "type": "mtproto",
+    "server": "1.telbet.lol",
+    "port": 25565,
+    "secret": "dd79e7010200010007f0030386e24c3add"
+  },
+  {
+    "tag": "mtproto_99",
+    "type": "mtproto",
+    "server": "2.telbet.lol",
+    "port": 25565,
+    "secret": "dd79e7010200010007f0030386e24c3add"
+  },
+  {
+    "tag": "mtproto_100",
+    "type": "mtproto",
+    "server": "3.telbet.lol",
+    "port": 25565,
+    "secret": "dd79e7010200010007f0030386e24c3add"
+  },
+  {
+    "tag": "mtproto_101",
+    "type": "mtproto",
+    "server": "https-cdn-ddns.itdeveloper.info.",
+    "port": 88,
+    "secret": "7nnnAQIAAQAH8AMDhuJMOt0="
+  },
+  {
+    "tag": "mtproto_102",
+    "type": "mtproto",
+    "server": "148.251.35.0",
+    "port": 8443,
+    "secret": "E____xADzDAFqlAH7nAJ3A"
+  },
+  {
+    "tag": "mtproto_103",
+    "type": "mtproto",
+    "server": "167.233.49.234",
+    "port": 443,
+    "secret": "ddd77db43ee3721f0fcb40a4ff63b5cd27"
+  },
+  {
+    "tag": "mtproto_104",
+    "type": "mtproto",
+    "server": "167.233.53.190",
+    "port": 443,
+    "secret": "ddd77db43ee3721f0fcb40a4ff63b5cd27"
+  },
+  {
+    "tag": "mtproto_105",
+    "type": "mtproto",
+    "server": "167.233.60.38",
+    "port": 443,
+    "secret": "ddd77db43ee3721f0fcb40a4ff63b5cd27"
+  },
+  {
+    "tag": "mtproto_106",
+    "type": "mtproto",
+    "server": "167.233.58.228",
+    "port": 443,
+    "secret": "ddd77db43ee3721f0fcb40a4ff63b5cd27"
+  },
+  {
+    "tag": "mtproto_107",
+    "type": "mtproto",
+    "server": "167.233.52.240",
+    "port": 443,
+    "secret": "ddd77db43ee3721f0fcb40a4ff63b5cd27"
+  },
+  {
+    "tag": "mtproto_108",
+    "type": "mtproto",
+    "server": "ams1.tlgfast.com",
+    "port": 443,
+    "secret": "083fe0c452e2407d835537872f097c54"
+  },
+  {
+    "tag": "mtproto_109",
+    "type": "mtproto",
+    "server": "87.248.129.210",
+    "port": 4455,
+    "secret": "7hYDAQIAAQAB_AMDhuJMOt1iaXNjb3R0aS55ZWt0YW5ldC5jb20"
+  },
+  {
+    "tag": "mtproto_110",
+    "type": "mtproto",
+    "server": "167.233.21.161",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_111",
+    "type": "mtproto",
+    "server": "213.133.102.101",
+    "port": 443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_112",
+    "type": "mtproto",
+    "server": "tg.capycore.ru",
+    "port": 443,
+    "secret": "27ebe852539fb8ec5f327c73262bb721"
+  },
+  {
+    "tag": "mtproto_113",
+    "type": "mtproto",
+    "server": "vaslshid.co.uk.",
+    "port": 85,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q=="
+  },
+  {
+    "tag": "mtproto_114",
+    "type": "mtproto",
+    "server": "178.105.226.11",
+    "port": 8443,
+    "secret": "E____xADzDAFqlAH7nAJ3A"
+  },
+  {
+    "tag": "mtproto_115",
+    "type": "mtproto",
+    "server": "mt.corph.ru",
+    "port": 443,
+    "secret": "dd2ed7517b077ef414e24b106e0729335d"
+  },
+  {
+    "tag": "mtproto_116",
+    "type": "mtproto",
+    "server": "178.105.231.238",
+    "port": 8443,
+    "secret": "E____xADzDAFqlAH7nAJ3A"
+  },
+  {
+    "tag": "mtproto_117",
+    "type": "mtproto",
+    "server": "a.artishchev.org",
+    "port": 8443,
+    "secret": "963a7fd525b04c4533ce776c9bd70f34"
+  },
+  {
+    "tag": "mtproto_118",
+    "type": "mtproto",
+    "server": "khoda.hafez.info",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_119",
+    "type": "mtproto",
+    "server": "tavakalta-alalah.info",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_120",
+    "type": "mtproto",
+    "server": "65.108.123.76",
+    "port": 443,
+    "secret": "3XnnAQIAAQAH8AMDhuJMOt0"
+  },
+  {
+    "tag": "mtproto_121",
+    "type": "mtproto",
+    "server": "5.75.222.199",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQRueWVrdGFuZXQuY29tZmFyYWthdi5jb212YW4ubmFqdmEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "tag": "mtproto_122",
+    "type": "mtproto",
+    "server": "178.105.240.97",
+    "port": 61016,
+    "secret": "7nnnAQIAAQAH8AMDhuJMOt0="
+  },
+  {
+    "tag": "mtproto_123",
+    "type": "mtproto",
+    "server": "3.64.237.188",
+    "port": 2053,
+    "secret": "ee052186706e4be82a017061677ee22f93706574726f766963682e7275"
+  },
+  {
+    "tag": "mtproto_124",
+    "type": "mtproto",
+    "server": "sabr.ssboriat.co.uk",
+    "port": 531,
+    "secret": "FgMBAgABAAH8AwOG4kw63Q=="
+  },
+  {
+    "tag": "mtproto_125",
+    "type": "mtproto",
+    "server": "188.40.191.135",
+    "port": 8443,
+    "secret": "E____xADzDAFqlAH7nAJ3A"
+  },
+  {
+    "tag": "mtproto_126",
+    "type": "mtproto",
+    "server": "138.199.215.229",
+    "port": 7443,
+    "secret": "ee1603010200010001fc030386e24c3add646e2e79656b74616e65742e636f6d646c2e676f6f676c652e636f6d666172616B61762E636F6D160301020001000100000000000000000000000000000000"
+  },
+  {
+    "tag": "mtproto_127",
+    "type": "mtproto",
+    "server": "87.248.129.52",
+    "port": 15,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_128",
+    "type": "mtproto",
+    "server": "87.248.129.132",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_129",
+    "type": "mtproto",
+    "server": "ader.dynoporo.com",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_130",
+    "type": "mtproto",
+    "server": "46.225.248.130",
+    "port": 4455,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_131",
+    "type": "mtproto",
+    "server": "178.105.218.231",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_132",
+    "type": "mtproto",
+    "server": "tee.mobemouy.com",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_133",
+    "type": "mtproto",
+    "server": "paitakht.arasto.info",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_134",
+    "type": "mtproto",
+    "server": "65.109.146.207",
+    "port": 443,
+    "secret": "3XnnAQIAAQAH8AMDhuJMOt03XnnAQIAAQAH8AMDhuJMOt03XnnAQIAAQAH8AMDhuJMOt03XnnAQIAAQAH8AMDhuJMOt03XnnAQIAAQAH8AMDhuJMOt03XnnAQIAAQAH8AMDhuJMOt03XnnAQIAAQAH8AMDhuJMOt03XnnAQIAAQAH8AMDhuJMOt0"
+  },
+  {
+    "tag": "mtproto_135",
+    "type": "mtproto",
+    "server": "1788168686678762767777.ir.fulldf.info",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQ=="
+  },
+  {
+    "tag": "mtproto_136",
+    "type": "mtproto",
+    "server": "87.248.129.248",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_137",
+    "type": "mtproto",
+    "server": "185.117.0.248",
+    "port": 443,
+    "secret": "eed451f808fd60ed2c45f11d38fdbc87c57961686f6f2e636f6d"
+  },
+  {
+    "tag": "mtproto_138",
+    "type": "mtproto",
+    "server": "997881888577776668697776777.ir.fulldf.info",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQ=="
+  },
+  {
+    "tag": "mtproto_139",
+    "type": "mtproto",
+    "server": "87.248.129.248",
+    "port": 4455,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_140",
+    "type": "mtproto",
+    "server": "pitzamamad9.ir",
+    "port": 25565,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_141",
+    "type": "mtproto",
+    "server": "157.90.70.229",
+    "port": 8443,
+    "secret": "963a7fd525b04c4533ce776c9bd70f34"
+  },
+  {
+    "tag": "mtproto_142",
+    "type": "mtproto",
+    "server": "91.107.246.35",
+    "port": 443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_143",
+    "type": "mtproto",
+    "server": "87.248.129.12",
+    "port": 15,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_144",
+    "type": "mtproto",
+    "server": "91.107.252.161",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_145",
+    "type": "mtproto",
+    "server": "ram.opt-meli.info",
+    "port": 155,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_146",
+    "type": "mtproto",
+    "server": "pro.time-meli.info",
+    "port": 155,
+    "secret": "FgMBAgABAAH8AxOG4kw63Q"
+  },
+  {
+    "tag": "mtproto_147",
+    "type": "mtproto",
+    "server": "47881888767266766676827277.ir.fulldf.info",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQ=="
+  },
+  {
+    "tag": "mtproto_148",
+    "type": "mtproto",
+    "server": "reboot.tikla.info",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_149",
+    "type": "mtproto",
+    "server": "iran.quickdl.info.",
+    "port": 443,
+    "secret": "ee79e7010200010007f0030386e24c3add68656c702e737465616d706f77657265642e636f6d"
+  },
+  {
+    "tag": "mtproto_150",
+    "type": "mtproto",
+    "server": "91.217.166.4",
+    "port": 20,
+    "secret": "FgMBAgABAAH8AwOG4kw63Q=="
+  },
+  {
+    "tag": "mtproto_151",
+    "type": "mtproto",
+    "server": "1028786816z3667866752876777.ir.fulldf.info",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQ=="
+  },
+  {
+    "tag": "mtproto_152",
+    "type": "mtproto",
+    "server": "178.105.195.36",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_153",
+    "type": "mtproto",
+    "server": "form.quickdl.info",
+    "port": 22,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_154",
+    "type": "mtproto",
+    "server": "www.humaontop.space",
+    "port": 443,
+    "secret": "3XnnAQIAAQAH8AMDhuJMOt0"
+  },
+  {
+    "tag": "mtproto_155",
+    "type": "mtproto",
+    "server": "56.228.13.198",
+    "port": 15,
+    "secret": "dd1603010200010001fc030386e24c3add"
+  },
+  {
+    "tag": "mtproto_156",
+    "type": "mtproto",
+    "server": "87.248.129.53",
+    "port": 15,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_157",
+    "type": "mtproto",
+    "server": "16.171.113.106",
+    "port": 15,
+    "secret": "dd1603010200010001fc030386e24c3add"
+  },
+  {
+    "tag": "mtproto_158",
+    "type": "mtproto",
+    "server": "213.133.102.106",
+    "port": 443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_159",
+    "type": "mtproto",
+    "server": "3778818885766676767777777.ir.fulldf.info",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQ=="
+  },
+  {
+    "tag": "mtproto_160",
+    "type": "mtproto",
+    "server": "87.248.129.50",
+    "port": 15,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_161",
+    "type": "mtproto",
+    "server": "5.75.197.246",
+    "port": 443,
+    "secret": "ddc333a2a17e2be71f9cf1887f3b22dc7d"
+  },
+  {
+    "tag": "mtproto_162",
+    "type": "mtproto",
+    "server": "0078815888767766686dd77777.ir.fulldf.info",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQ=="
+  },
+  {
+    "tag": "mtproto_163",
+    "type": "mtproto",
+    "server": "276881886665876777777777.ir.fulldf.info",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQ=="
+  },
+  {
+    "tag": "mtproto_164",
+    "type": "mtproto",
+    "server": "178.105.239.80",
+    "port": 7443,
+    "secret": "ee1603010200010001fc030386e24c3add646e2e79656b74616e65742e636f6d646c2e676f6f676c652e636f6d666172616B61762E636F6D160301020001000100000000000000000000000000000000"
+  },
+  {
+    "tag": "mtproto_165",
+    "type": "mtproto",
+    "server": "178.105.240.27",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_166",
+    "type": "mtproto",
+    "server": "178.105.245.72",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_167",
+    "type": "mtproto",
+    "server": "www.qatar-railways.info.",
+    "port": 443,
+    "secret": "ee79e7010200010007f0030386e24c3add68656c702e737465616d706f77657265642e636f6d"
+  },
+  {
+    "tag": "mtproto_168",
+    "type": "mtproto",
+    "server": "87.248.129.51",
+    "port": 15,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_169",
+    "type": "mtproto",
+    "server": "178.105.188.16",
+    "port": 7443,
+    "secret": "ee1603010200010001fc030386e24c3add646e2e79656b74616e65742e636f6d646c2e676f6f676c652e636f6d666172616B61762E636F6D160301020001000100000000000000000000000000000000"
+  },
+  {
+    "tag": "mtproto_170",
+    "type": "mtproto",
+    "server": "52.47.47.90",
+    "port": 15,
+    "secret": "dd1603010200010001fc030386e24c3add"
+  },
+  {
+    "tag": "mtproto_171",
+    "type": "mtproto",
+    "server": "yazdan.htop.info",
+    "port": 443,
+    "secret": "ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_172",
+    "type": "mtproto",
+    "server": "92.246.138.184",
+    "port": 6773,
+    "secret": "eeNEgYdJvXrFGRMCIMJdCQtY2RueWVrdGFuZXQuY29tZmFyYWthdi5jb212YW4ubmFqdmEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "tag": "mtproto_173",
+    "type": "mtproto",
+    "server": "91.107.155.175",
+    "port": 2053,
+    "secret": "dd24080aaebdec954f4e0337c6e20fde3e"
+  },
+  {
+    "tag": "mtproto_174",
+    "type": "mtproto",
+    "server": "51.20.91.11",
+    "port": 15,
+    "secret": "dd1603010200010001fc030386e24c3add"
+  },
+  {
+    "tag": "mtproto_175",
+    "type": "mtproto",
+    "server": "178.105.237.175",
+    "port": 7443,
+    "secret": "ee1603010200010001fc030386e24c3add646e2e79656b74616e65742e636f6d646c2e676f6f676c652e636f6d666172616B61762E636F6D160301020001000100000000000000000000000000000000"
+  },
+  {
+    "tag": "mtproto_176",
+    "type": "mtproto",
+    "server": "028786816z3667866752876777.ir.fulldf.info",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQ=="
+  },
+  {
+    "tag": "mtproto_177",
+    "type": "mtproto",
+    "server": "91.107.255.20",
+    "port": 2053,
+    "secret": "dd35d7424b53edfa76f525c4a028ed4e7b"
+  },
+  {
+    "tag": "mtproto_178",
+    "type": "mtproto",
+    "server": "19378818886789667977767777.ir.fulldf.info",
+    "port": 8443,
+    "secret": "EERighJJvXrFGRMCIMJdCQ=="
+  },
+  {
+    "tag": "mtproto_179",
+    "type": "mtproto",
+    "server": "178.105.232.49",
+    "port": 8443,
+    "secret": "E____xADzDAFqlAH7nAJ3A"
+  },
+  {
+    "tag": "mtproto_180",
+    "type": "mtproto",
+    "server": "91.217.166.6",
+    "port": 16,
+    "secret": "ee1603010200010001fc030386e24c3add63646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_181",
+    "type": "mtproto",
+    "server": "116.203.2.157",
+    "port": 4455,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_182",
+    "type": "mtproto",
+    "server": "95.216.41.109",
+    "port": 443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_183",
+    "type": "mtproto",
+    "server": "195.254.165.22",
+    "port": 8443,
+    "secret": "ee1603010200010001fc030386e24c3add646565707365656B2E636F6D"
+  },
+  {
+    "tag": "mtproto_184",
+    "type": "mtproto",
+    "server": "95.216.41.97",
+    "port": 443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_185",
+    "type": "mtproto",
+    "server": "195.254.165.24",
+    "port": 8443,
+    "secret": "ee1603010200010001fc030386e24c3add646565707365656B2E636F6D"
+  },
+  {
+    "tag": "mtproto_186",
+    "type": "mtproto",
+    "server": "95.217.27.56",
+    "port": 8080,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_187",
+    "type": "mtproto",
+    "server": "37.27.192.10",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_188",
+    "type": "mtproto",
+    "server": "13.62.222.53",
+    "port": 15,
+    "secret": "dd1603010200010001fc030386e24c3add"
+  },
+  {
+    "tag": "mtproto_189",
+    "type": "mtproto",
+    "server": "65.109.255.130",
+    "port": 8080,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_190",
+    "type": "mtproto",
+    "server": "94.130.191.164",
+    "port": 8443,
+    "secret": "E____xADzDAFqlAH7nAJ3A"
+  },
+  {
+    "tag": "mtproto_191",
+    "type": "mtproto",
+    "server": "65.109.252.197",
+    "port": 8080,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_192",
+    "type": "mtproto",
+    "server": "87.248.129.224",
+    "port": 4455,
+    "secret": "7hYDAQIAAQAB_AMDhuJMOt1iaXNjb3R0aS55ZWt0YW5ldC5jb20"
+  },
+  {
+    "tag": "mtproto_193",
+    "type": "mtproto",
+    "server": "167.233.40.244",
+    "port": 8443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_194",
+    "type": "mtproto",
+    "server": "195.201.146.78",
+    "port": 443,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_195",
+    "type": "mtproto",
+    "server": "178.105.244.106",
+    "port": 61016,
+    "secret": "7nnnAQIAAQAH8AMDhuJMOt0="
+  },
+  {
+    "tag": "mtproto_196",
+    "type": "mtproto",
+    "server": "209.250.225.24",
+    "port": 8080,
+    "secret": "eeNEgYdJvXrFGRMCIMJdCQtY2RueWVrdGFuZXQuY29tZmFyYWthdi5jb212YW4ubmFqdmEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "tag": "mtproto_197",
+    "type": "mtproto",
+    "server": "116.203.11.129",
+    "port": 4455,
+    "secret": "dd104462821249bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_198",
+    "type": "mtproto",
+    "server": "mc-ssh.t-proxyru.info.",
+    "port": 25565,
+    "secret": "ee104462821249bd7ac519130220c25d0963646e2e79656b74616e65742e636f6d"
+  },
+  {
+    "tag": "mtproto_199",
+    "type": "mtproto",
+    "server": "65.109.254.108",
+    "port": 443,
+    "secret": "ddf0eeb0bd9adc4fd4a93994ee3b2a216b"
+  },
+  {
+    "tag": "mtproto_200",
+    "type": "mtproto",
+    "server": "rocket.flowaccess.site",
+    "port": 443,
+    "secret": "ee03d3d1b9bda832390669bc06167720d8726f636b65742e666c6f776163636573732e73697465"
+  },
+  {
+    "tag": "mtproto_201",
+    "type": "mtproto",
+    "server": "blaze.flowaccess.site",
+    "port": 443,
+    "secret": "eec799e0af5c33d8ffc2310d4f0154379c626c617a652e666c6f776163636573732e73697465"
+  },
+  {
+    "tag": "mtproto_202",
+    "type": "mtproto",
+    "server": "sonic.quickrouteapp.xyz",
+    "port": 443,
+    "secret": "eebd8b54149182b64d403ef9c5141fc3ee736f6e69632e717569636b726f7574656170702e78797a"
+  },
+  {
+    "tag": "mtproto_203",
+    "type": "mtproto",
+    "server": "flash.quickrouteapp.xyz",
+    "port": 443,
+    "secret": "eec7b876f355b93b6b786cb4b6c9daee79666c6173682e717569636b726f7574656170702e78797a"
+  },
+  {
+    "tag": "mtproto_204",
+    "type": "mtproto",
+    "server": "post.my-miner.info.",
+    "port": 8443,
+    "secret": "7gggggggggggggggggggggh0cmFuc2xhdGUuZ29v"
+  },
+  {
+    "tag": "mtproto_205",
+    "type": "mtproto",
+    "server": "159.69.100.158",
+    "port": 443,
+    "secret": "f0eeb0bd9adc4fd4a93994ee3b2a216b"
+  },
+  {
+    "tag": "mtproto_206",
+    "type": "mtproto",
+    "server": "157.180.122.162",
+    "port": 443,
+    "secret": "ddf0eeb0bd9adc4fd4a93994ee3b2a216b"
+  },
+  {
+    "tag": "mtproto_207",
+    "type": "mtproto",
+    "server": "195.254.165.249",
+    "port": 25565,
+    "secret": "dd79e344818749bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_208",
+    "type": "mtproto",
+    "server": "195.254.165.250",
+    "port": 25565,
+    "secret": "dd79e344818749bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_209",
+    "type": "mtproto",
+    "server": "195.254.165.251",
+    "port": 25565,
+    "secret": "dd79e344818749bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_210",
+    "type": "mtproto",
+    "server": "195.254.165.253",
+    "port": 25565,
+    "secret": "dd79e344818749bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_211",
+    "type": "mtproto",
+    "server": "195.254.165.252",
+    "port": 25565,
+    "secret": "dd79e344818749bd7ac519130220c25d09"
+  },
+  {
+    "tag": "mtproto_212",
+    "type": "mtproto",
+    "server": "195.254.165.247",
+    "port": 25565,
+    "secret": "dd79e344818749bd7ac519130220c25d09"
+  }
+]
