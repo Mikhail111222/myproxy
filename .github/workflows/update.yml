@@ -1,0 +1,66 @@
+name: Update2
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install httpx
+      - run: |
+          python << 'PYEOF'
+          import httpx, json, base64
+          from urllib.parse import urlparse, parse_qs
+          
+          r = httpx.get('https://raw.githubusercontent.com/SoliSpirit/mtproto/master/all_proxies.txt', timeout=30)
+          lines = r.text.strip().split('\n')
+          outbounds = []
+          n = 0
+          
+          for line in lines:
+              line = line.strip()
+              if not line:
+                  continue
+              n += 1
+              if 't.me/proxy' in line:
+                  try:
+                      parsed = urlparse(line)
+                      params = parse_qs(parsed.query)
+                      server = params.get('server', [''])[0]
+                      port = params.get('port', ['443'])[0]
+                      secret = params.get('secret', [''])[0]
+                      if server:
+                          outbounds.append({
+                              "type": "mtproto",
+                              "tag": f"mtproto_{n}",
+                              "server": server,
+                              "server_port": int(port),
+                              "secret": secret
+                          })
+                  except Exception as e:
+                      print(f'Error line {n}: {e}')
+          
+          result = {"outbounds": outbounds}
+          encoded = base64.b64encode(json.dumps(result).encode()).decode()
+          
+          with open('configs.txt', 'w') as f:
+              f.write(encoded)
+          
+          print(f'Parsed: {len(outbounds)} proxies')
+          PYEOF
+      - run: |
+          git config user.name "actions"
+          git config user.email "actions@github.com"
+          git fetch origin main
+          git reset --soft origin/main
+          git add configs.txt configs.json
+          git commit -m "Update" && git push || echo "No changes"
