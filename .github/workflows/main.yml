@@ -1,0 +1,52 @@
+name: Update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install httpx
+      - run: |
+          python -c "
+          import httpx, json, re
+          r = httpx.get('https://raw.githubusercontent.com/SoliSpirit/mtproto/master/all_proxies.txt', timeout=30)
+          t = r.text
+          configs = []
+          cur = None
+          n = 0
+          for l in t.split('\n'):
+              l = l.strip()
+              if not l or l.startswith('#'): continue
+              if l in ['http','socks4','socks5','mtproto']:
+                  cur = l
+                  continue
+              n += 1
+              if cur == 'mtproto':
+                  m = re.match(r'MTProto:\s*([^:]+):(\d+):(\S+)', l)
+                  if m:
+                      configs.append({'tag':f'mtproto_{n}','type':'mtproto','server':m.group(1),'port':int(m.group(2)),'secret':m.group(3)})
+              elif cur in ['http','socks4','socks5']:
+                  p = l.split(':')
+                  if len(p) >= 2:
+                      cfg = {'tag':f'{cur}_{n}','type':'http' if cur=='http' else 'socks','server':p[0],'port':int(p[1])}
+                      if cur in ['socks4','socks5']: cfg['version'] = cur[-1]
+                      if len(p) >= 4: cfg['username'], cfg['password'] = p[2], p[3]
+                      configs.append(cfg)
+          with open('configs.json','w') as f:
+              json.dump(configs, f, indent=2)
+          print(f'Done: {len(configs)} proxies')
+          "
+      - run: |
+          git config user.name "actions"
+          git config user.email "actions@github.com"
+          git add configs.json
+          git diff --staged --quiet || git commit -m "Update"
+          git push
