@@ -17,13 +17,15 @@ jobs:
           python-version: '3.12'
       - run: pip install httpx
       - run: |
-          python -c "
-          import httpx, json, re
+          python << 'PYEOF'
+          import httpx, json
           from urllib.parse import urlparse, parse_qs
+          
           r = httpx.get('https://raw.githubusercontent.com/SoliSpirit/mtproto/master/all_proxies.txt', timeout=30)
           t = r.text
           configs = []
           n = 0
+          
           for l in t.split('\n'):
               l = l.strip()
               if not l or l.startswith('#'):
@@ -43,21 +45,11 @@ jobs:
                           'port': int(port),
                           'secret': secret
                       })
-              elif ':' in l and not l.startswith('http'):
-                  p = l.split(':')
-                  if len(p) >= 2:
-                      cfg = {
-                          'tag': f'proxy_{n}',
-                          'type': 'socks',
-                          'server': p[0],
-                          'port': int(p[1]),
-                          'version': '5'
-                      }
-                      configs.append(cfg)
+          
           with open('configs.json', 'w') as f:
               json.dump(configs, f, indent=2)
           print(f'Done: {len(configs)} proxies')
-          "
+          PYEOF
       - run: |
           git config user.name "actions"
           git config user.email "actions@github.com"
