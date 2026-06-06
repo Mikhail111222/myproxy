@@ -48,9 +48,9 @@ jobs:
                               'secret': secret
                           })
                   except Exception as e:
-                      print(f'Error on line {n}: {e}')
+                      print(f'Error line {n}: {e}')
           
-          print(f'Parsed proxies: {len(configs)}')
+          print(f'Parsed: {len(configs)} proxies')
           with open('configs.json', 'w') as f:
               json.dump(configs, f, indent=2)
           PYEOF
