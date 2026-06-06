@@ -23,7 +23,6 @@ jobs:
           
           r = httpx.get('https://raw.githubusercontent.com/SoliSpirit/mtproto/master/all_proxies.txt', timeout=30)
           lines = r.text.strip().split('\n')
-          print(f'Total lines: {len(lines)}')
           configs = []
           n = 0
           
@@ -41,11 +40,20 @@ jobs:
                       secret = params.get('secret', [''])[0]
                       if server:
                           configs.append({
-                              'tag': f'mtproto_{n}',
-                              'type': 'mtproto',
-                              'server': server,
-                              'port': int(port),
-                              'secret': secret
+                              "tag": f"mtproto_{n}",
+                              "protocol": "mtproto",
+                              "settings": {
+                                  "users": [{
+                                      "secret": secret,
+                                      "level": 1
+                                  }]
+                              },
+                              "streamSettings": {
+                                  "network": "tcp",
+                                  "security": "none"
+                              },
+                              "server": server,
+                              "port": int(port)
                           })
                   except Exception as e:
                       print(f'Error line {n}: {e}')
