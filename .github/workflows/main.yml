@@ -22,33 +22,37 @@ jobs:
           from urllib.parse import urlparse, parse_qs
           
           r = httpx.get('https://raw.githubusercontent.com/SoliSpirit/mtproto/master/all_proxies.txt', timeout=30)
-          t = r.text
+          lines = r.text.strip().split('\n')
+          print(f'Total lines: {len(lines)}')
           configs = []
           n = 0
           
-          for l in t.split('\n'):
-              l = l.strip()
-              if not l or l.startswith('#'):
+          for line in lines:
+              line = line.strip()
+              if not line:
                   continue
               n += 1
-              if l.startswith('https://t.me/proxy?'):
-                  parsed = urlparse(l)
-                  params = parse_qs(parsed.query)
-                  server = params.get('server', [''])[0]
-                  port = params.get('port', ['443'])[0]
-                  secret = params.get('secret', [''])[0]
-                  if server:
-                      configs.append({
-                          'tag': f'mtproto_{n}',
-                          'type': 'mtproto',
-                          'server': server,
-                          'port': int(port),
-                          'secret': secret
-                      })
+              if 't.me/proxy' in line:
+                  try:
+                      parsed = urlparse(line)
+                      params = parse_qs(parsed.query)
+                      server = params.get('server', [''])[0]
+                      port = params.get('port', ['443'])[0]
+                      secret = params.get('secret', [''])[0]
+                      if server:
+                          configs.append({
+                              'tag': f'mtproto_{n}',
+                              'type': 'mtproto',
+                              'server': server,
+                              'port': int(port),
+                              'secret': secret
+                          })
+                  except Exception as e:
+                      print(f'Error on line {n}: {e}')
           
+          print(f'Parsed proxies: {len(configs)}')
           with open('configs.json', 'w') as f:
               json.dump(configs, f, indent=2)
-          print(f'Done: {len(configs)} proxies')
           PYEOF
       - run: |
           git config user.name "actions"
